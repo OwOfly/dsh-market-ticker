@@ -1,0 +1,44 @@
+{
+  "name": "dsh-market-ticker",
+  "version": "0.1.0",
+  "description": "DSH 行情终端条：顶部行情跑马灯 + 指数状态栏 + 仿终端标题栏（三区可独立显隐），自选标的/刷新频率/红涨绿跌均可在设置浮层自定义并即时生效。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.1.0-rc.8"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "market",
+    "ticker",
+    "quotes",
+    "stock"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OwOfly/dsh-market-ticker.git"
+  },
+  "author": "OwOfly"
+}

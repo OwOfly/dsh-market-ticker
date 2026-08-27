@@ -1,0 +1,12 @@
+# dsh-market-ticker bundle patch
+#
+# 通过官方 CLI 安装时：
+#   dsh plugin --profile web add dsh-market-ticker
+# 安装命令会把本包加入 dsh.profile.bundles，profile 启动时合并本 patch
+# （单条 insert 挂载行），无需手动编辑任何 profile 文件。
+#
+# 如需手动挂载（例如源码 link 安装），把下面这条 insert 去掉注释后
+# 复制到 ~/.dsh/profiles/web/cordis.patch.yml 亦可。
+- insert:
+    - id: dsh-market-ticker
+      name: 'dsh-market-ticker'
