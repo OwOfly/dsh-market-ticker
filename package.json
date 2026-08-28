@@ -1,6 +1,6 @@
 {
   "name": "dsh-market-ticker",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "DSH 行情终端条：顶部行情跑马灯 + 指数状态栏 + 仿终端标题栏（三区可独立显隐），自选标的/刷新频率/红涨绿跌均可在设置浮层自定义并即时生效。",
   "type": "module",
   "main": "lib/index.js",
