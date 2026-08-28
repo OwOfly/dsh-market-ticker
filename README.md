@@ -79,4 +79,4 @@ dsh plugin --profile web add dsh-market-ticker
 
 ## License
 
-MIT © 2026 OwOfly (姚鹏飞)
+MIT © 2026 OwOfly
